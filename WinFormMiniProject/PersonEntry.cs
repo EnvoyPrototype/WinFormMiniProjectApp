@@ -25,7 +25,7 @@ namespace WinFormMiniProject
 
         private void addNewAddress_Click(object sender, EventArgs e)
         {
-            AddressEntry entry = new AddressEntry();
+            AddressEntry entry = new AddressEntry(this);
 
             entry.Show();
         }
@@ -33,6 +33,17 @@ namespace WinFormMiniProject
         public void SaveAddress(AddressModel address)
         {
             addresses.Add(address);
+        }
+
+        private void saveRecord_Click(object sender, EventArgs e)
+        {
+            PersonModel person = new PersonModel
+            {
+                FirstName = firstNameText.Text,
+                LastName = lastNameText.Text,
+                IsActive = isActive.Checked,
+                Addresses = addresses.ToList()
+            };
         }
     }
 }

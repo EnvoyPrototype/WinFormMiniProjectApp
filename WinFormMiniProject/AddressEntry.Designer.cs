@@ -116,7 +116,7 @@
             // 
             // saveRecord
             // 
-            this.saveRecord.Location = new System.Drawing.Point(257, 328);
+            this.saveRecord.Location = new System.Drawing.Point(191, 304);
             this.saveRecord.Name = "saveRecord";
             this.saveRecord.Size = new System.Drawing.Size(122, 41);
             this.saveRecord.TabIndex = 12;
@@ -140,7 +140,7 @@
             this.Controls.Add(this.cityLabel);
             this.Controls.Add(this.streetAddressLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "AddressEntry";
             this.Text = "Address Entry Form by Jim Rogers";
             this.ResumeLayout(false);
