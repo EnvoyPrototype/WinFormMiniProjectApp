@@ -116,6 +116,7 @@
             this.addNewAddress.TabIndex = 4;
             this.addNewAddress.Text = "Add";
             this.addNewAddress.UseVisualStyleBackColor = true;
+            this.addNewAddress.Click += new System.EventHandler(this.addNewAddress_Click);
             // 
             // saveRecord
             // 
