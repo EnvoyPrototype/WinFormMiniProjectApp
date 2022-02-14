@@ -70,7 +70,7 @@
             this.lastNameText.Location = new System.Drawing.Point(149, 57);
             this.lastNameText.Name = "lastNameText";
             this.lastNameText.Size = new System.Drawing.Size(264, 35);
-            this.lastNameText.TabIndex = 1;
+            this.lastNameText.TabIndex = 2;
             // 
             // isActive
             // 
@@ -78,7 +78,7 @@
             this.isActive.Location = new System.Drawing.Point(149, 106);
             this.isActive.Name = "isActive";
             this.isActive.Size = new System.Drawing.Size(15, 14);
-            this.isActive.TabIndex = 2;
+            this.isActive.TabIndex = 3;
             this.isActive.UseVisualStyleBackColor = true;
             // 
             // isActiveLabel
@@ -142,7 +142,7 @@
             this.Controls.Add(this.lastNameLabel);
             this.Controls.Add(this.firstNameLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "PersonEntry";
             this.Text = "Person Entry Form by Jim Rogers";
             this.ResumeLayout(false);

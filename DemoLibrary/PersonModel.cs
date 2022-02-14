@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DemoLibrary
 {
-    public class PersonModel
+    internal class PersonModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
