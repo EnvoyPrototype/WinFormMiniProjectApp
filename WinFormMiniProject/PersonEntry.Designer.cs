@@ -37,6 +37,7 @@
             this.addressesList = new System.Windows.Forms.ListBox();
             this.addressesListLabel = new System.Windows.Forms.Label();
             this.addNewAddress = new System.Windows.Forms.Button();
+            this.saveRecord = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // firstNameLabel
@@ -116,11 +117,21 @@
             this.addNewAddress.Text = "Add";
             this.addNewAddress.UseVisualStyleBackColor = true;
             // 
+            // saveRecord
+            // 
+            this.saveRecord.Location = new System.Drawing.Point(166, 405);
+            this.saveRecord.Name = "saveRecord";
+            this.saveRecord.Size = new System.Drawing.Size(122, 41);
+            this.saveRecord.TabIndex = 5;
+            this.saveRecord.Text = "Save";
+            this.saveRecord.UseVisualStyleBackColor = true;
+            // 
             // PersonEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 477);
+            this.ClientSize = new System.Drawing.Size(470, 477);
+            this.Controls.Add(this.saveRecord);
             this.Controls.Add(this.addNewAddress);
             this.Controls.Add(this.addressesList);
             this.Controls.Add(this.isActive);
@@ -150,6 +161,7 @@
         private System.Windows.Forms.ListBox addressesList;
         private System.Windows.Forms.Label addressesListLabel;
         private System.Windows.Forms.Button addNewAddress;
+        private System.Windows.Forms.Button saveRecord;
     }
 }
 
